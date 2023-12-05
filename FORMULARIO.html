@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="autor" content="Julian, Jesus, Maikel y Sergio">
+  <meta name=“copyright" content="IES Cañada de la Encina">
+  <meta name=“description" content="Pagina web con informacion sobre el pais de Japon">
+  <meta name=“keywords" content="Japon, Tokio, viajes, escapadas, gastronomia, tradiciones">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+
+</head>
+ 
+<body>
+    <table cellspacing="10">
+        <!--ENCABEZADO PAGINA-->
+        <tr>
+            <td bgcolor="#DEE11A" width="10000" height="25" colspan="12"></td>
+        </tr>
+        <tr>
+            <td bgcolor="black" width="10000" height="50" colspan="10" align="center" >
+              <font size="20" color="#DEE11A"><strong>Japón</strong></font></td>
+            <td bgcolor="black" width="100" height="2"  colspan="2" align="center"><a href="./FORMULARIO.html"><font color="white">Suscríbete</font></a></td>  
+        <tr width="10" height="20">
+                <td align="center" colspan="3"><a href="./HISTORIA-index.html">HISTORIA</a></td>
+                <td align="center" colspan="3"><a href="./ESCAPADAS.html">ESCAPADAS</a></td>
+                <td align="center" colspan="2"><a href="./GASTRONOMIA.html">GASTRONOMÍA</a></td>
+                <td align="center" colspan="2"><a href="./TRADICIONES.html">TRADICIONES</a></td>
+                <td align="center" colspan="2"><a href="./FORMULARIO.html"><strong>FORMULARIO</strong></a></td>
+
+        <tr align="center" width="10" height="20">
+            <td width="10000" height="" colspan="12"><hr noshade></td>
+        </tr>
+        </table>
+    
+
+    <!--CUERPO PAGINA-->
+    <table style="background-image: url(./Imagenes/Imagenes_julian/bambu.jpg);">
+    <tr align="center">
+        <td width="2000px" colspan="12">
+        <form caption="jettsusc0c@gmail.com" method="post" enctype="text/plain">
+            <input type="checkbox" name="mi checkbox"checked><font face="arial black" color="black">Suscribirse al boletín</input><br>
+            <br>
+            Introduce tu nombre <input type="text" name="nombre" size=" 25" maxlength="40" title="nombre del usuario"></input>
+            <br><br>
+    
+            Introduce tus apellidos <input type="text" name="apellidos" size=" 20" maxlength="30" title="Apellidos del usuario"></input><br><br>
+    
+            Introduce tu DNI <input type="number" id="dni" name="dni" min="0000000" max="99999999" required> <input type="text" name="letra_dni" size="1" maxlength="1" required></input>
+    
+            <br><br>
+    
+            Introduce tu edad <input type="number" name="EDAD" min="1" max="50" step="0,01" title="edad del usuario"></input>
+            <br><br>
+    
+            ¿Cuál es tu género?<br><input type="radio" name="genero" value="1" checked>Masculino</input>
+            <br>
+            
+            <input type="radio" name="genero" value="2">Femenino</input> 
+            <br><br>
+    
+            Comentarios:
+            <br>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="50">¿Que te ha parecido la página web?</textarea><br><br>
+            Introduce la hora a la que realizaste el formulario <br>
+    
+            <input type="time" name="hora"></input>
+            <br><br>
+    
+            RELLENA EL CORREO ELECTRÓNICO:<br><input type="email" name="correo" size="40" title="Correo"></input><br>
+                <br>
+    
+                <details>
+            <summary>Opciones extra</summary>
+            <input type="checkbox" name="enviarofertas" checked> Enviar ofertas y promociones a mi dirección de email</p></input>
+            </details>
+            <br>
+
+            <input type="submit" value="Enviar">
+            </input>
+            <input type="reset" value="Restablecer" title="reiniciar">
+            </input>
+        </form>
+    </td>
+    </tr>
+</table>
+</body>
+</html>
+ 
